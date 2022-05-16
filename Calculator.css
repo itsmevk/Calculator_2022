@@ -1,0 +1,116 @@
+.main_div{
+    margin: auto;
+    margin-top: 20px;
+    height: 450px;
+    width: 300px;
+    text-align: center;
+    background-color: #1c2833;
+    border-color: black;
+    border-radius: 20px 20px 20px 20px;
+
+}
+
+table{
+    margin: auto;
+
+}
+
+.screen-div{
+    text-align: right;
+    margin-top: 20px;
+    color:rgba(11, 11, 34, 0.755);
+    height: 80px;
+    width: 100%;
+    display: inline-block;
+    background-color: #948c8c;
+    border: none;
+}
+input{
+    font-size: 35.5px;
+    font-family: Fira Code;
+    color:rgba(11, 11, 34, 0.755);
+    width: 90%;
+    display: inline-block;
+    border:2px solid black ;
+    text-align: right;
+    background-color: #948c8c;
+    border: none;
+    font-weight: bold;
+}
+.output_screen2{
+    font-size: 20.5px;
+    font-family: Fira Code;
+    color:rgb(255, 255, 255);
+    width: 90%;
+    display: inline-block;
+    border:2px solid black ;
+    text-align: right;
+    background-color: #948c8c;
+    border: none;
+    font-weight: bold;
+}
+
+button{
+    width: 56.5px;
+    height:50px;
+    font-size: 25px;
+    font-weight: bold ;
+    color: #d0d3d4 ;
+    border-radius: 5px;
+    background-color: #1c2833;
+    /*box-shadow: 2px 2px 0px 2px   #3b3d3f;*/
+    outline: none;
+    cursor: pointer;
+    border: none;
+    
+}
+button:hover{
+    background-color:#05111c;
+}
+button:active{
+    background-color: rgb(0, 0, 0);
+    transform: translate(2px, 2px);
+}
+.span-button{
+    height: 104px;;
+}
+.calc-box{
+    margin-top: 20px;
+    background-color: darkgray;
+    margin-left: 200px;
+    margin-right: 200px;
+
+}
+h1{
+position: relative;
+top: 20px;
+font-family: Ubuntu;
+color:#FFF ;
+}
+
+.hr-width{
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-top: 20px;
+
+
+
+}
+
+@keyframes big{
+    0%{
+        font-size: 20px;
+    }
+    100%{
+        font-size: 30px;
+    }
+}
+
+@keyframes small{
+    0%{
+        font-size: 30px;
+    }
+    100%{
+        font-size: 20px;
+    }
+}
